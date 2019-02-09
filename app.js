@@ -23,7 +23,7 @@ var request = require("request");
 var requestjs = require("request-json");
 
 var workspace = 'bf??';
-var assitantUsername = 'apikey';
+var assistantUsername = 'apikey';
 var assistantPassword = "Gu_??";
 
 var app = express();
@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 
 var assistant = new AssistantV1({
   version: '2018-07-10',
-  username: assitantUsername,
+  username: assistantUsername,
   password: assistantPassword
 });
 
